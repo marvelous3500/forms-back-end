@@ -1,0 +1,34 @@
+{
+  "name": "form-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "nodemon app.js --watch server --exec babel-node"
+  },
+  "author": "vester3500",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "config": "^3.2.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "joi": "^14.3.1",
+    "json": "^9.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
