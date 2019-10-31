@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://foms123:foms123@foms-orauw.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "secret"
+}
