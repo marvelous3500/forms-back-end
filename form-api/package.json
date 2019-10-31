@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "10.16.0"
+  },
   "scripts": {
     "build": "babel src -d lib",
     "start": "nodemon app.js --watch server --exec babel-node"
@@ -31,4 +34,5 @@
     "@babel/preset-env": "^7.1.0",
     "nodemon": "^1.18.4"
   }
+  
 }
