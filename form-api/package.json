@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "babel src -d lib",
-    "start": "nodemon app.js --watch server --exec babel-node"
+    "start": "nodemon app.js --watch server --exec babel-node",
+    "test": ""
   },
   "author": "vester3500",
   "license": "ISC",
