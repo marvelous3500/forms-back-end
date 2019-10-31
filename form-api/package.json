@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "config": "^3.2.3",
@@ -27,11 +28,11 @@
     "node-sass": "^4.12"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.6.4",
     "@babel/node": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "nodemon": "^1.18.4"
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "nodemon": "^1.19.4"
   }
 }

@@ -1,15 +1,15 @@
 
 const express = require("express");
 const bodyParser = require ('body-parser');
-import userrouter from './api/routes/usersRouter'
-import * as auth from './api/Middleware/auth'
-const connectDB = require('./api/config/db');
+import userrouter from './src/api/routes/usersRouter'
+import * as auth from './src/api/Middleware/auth'
+const connectDB = require('./src/api/config/db');
 
 
 var app = express()
 connectDB();
 
-const port = 8084
+const port = process.env.port || 8084
 app.use(bodyParser.json({ type: 'application/json' }))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.json())
