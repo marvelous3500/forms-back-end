@@ -9,7 +9,7 @@ const connectDB = require('./src/api/config/db');
 var app = express()
 connectDB();
 
-const port = process.env.port || 8084
+const port = process.env.port || 8080
 app.use(bodyParser.json({ type: 'application/json' }))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.json())
