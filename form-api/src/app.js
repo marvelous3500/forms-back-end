@@ -1,7 +1,7 @@
 
 const express = require("express");
 const bodyParser = require ('body-parser');
-import userrouter from './api/routes/usersRouter'
+import userrouter from '../src/api/routes/usersRouter'
 import * as auth from './api/Middleware/auth'
 const connectDB = require('./api/config/db');
 
